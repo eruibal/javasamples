@@ -1,5 +1,3 @@
-import java.util.PrimitiveIterator;
-
 public class SpeedConverter {
 
     public static long toMilesPerHour(double kilometersPerHour){
@@ -17,7 +15,7 @@ public class SpeedConverter {
     }
 
     public static void main(String[] args) {
-        System.out.println(toMilesPerHour(25.42));
-        printConversion(25.42);
+        System.out.println(toMilesPerHour(-10));
+        printConversion(-10);
     }
 }
